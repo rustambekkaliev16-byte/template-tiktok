@@ -30,6 +30,12 @@ export const BRAND = {
   voiceover: null as string | null,
 };
 
+// Стиль титров:
+//  "editorial" — гротеск + курсивная антиква на ключевом слове, мягкое появление
+//  "minimal"   — маленький текст строчными, фраза целиком, как ручной монтаж
+//  "bold"      — крупные прыгающие слова (первая версия)
+export const TITLE_STYLE: "editorial" | "minimal" | "bold" = "editorial";
+
 export type MotionKind =
   | "chartDown"
   | "turn"
